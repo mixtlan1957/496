@@ -10,9 +10,10 @@ import urllib
 import string
 
 
-CLIENT_ID = "998515741323-lsrfvgktllh131t70k5vabndqll5dkrs.apps.googleusercontent.com"
+CLIENT_ID = os.environ.get('CLIENT_ID')
 
-CLIENT_SECRET = "pzJmjEjAO5hiMj1p4JBm2sV2"
+
+CLIENT_SECRET = os.environ.get('CLIENT_SECRET')
 AUTH_REDIRECT_URI = "https://cs496-oauth-assign.appspot.com/oauth" 
 STATE_GLOBAL = ""
 
