@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+
+<head>		
+<title>CS 496 oAuth Assignment</title>
+ 
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+  <meta name="description" content="CS496 OAuth Assignment"/>
+  <meta name="author" content="Mario"> 
+
+   <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+
+<body>
+<div class="container">
+<p>
+	This is a demonstration of OAuth 2.0. Upon clicking "go to provide google account," this site will prompt you
+	to provide access to your gmail email address via gooogle account login.
+	Page will handle the user getting redirect back from Google's endpoint and handle exchange of access code for a token.
+	First name and last name and the URL to access the Google Plus account will then be displayed along with the state variable
+	that was used to secure the original redirect.
+</p>
+
+<br/>
+<a class="btn btn-primary" role="button" href= "{{input_URL}}">Go to provide google account</a>
+
+</div>
+
+</body>
+
+
+
+
+
+
+</html>

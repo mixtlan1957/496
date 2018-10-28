@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+
+<head>		
+<title>CS 496 oAuth Assignment Results Page</title>
+ 
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+  <meta name="description" content="CS496 OAuth Assignment"/>
+  <meta name="author" content="Mario"> 
+
+   <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+
+<body>
+<div class="container">
+
+
+<br/>
+  <p>
+    {{error}}
+    {{first_req}}
+    {{edata}}
+    <ul>
+      <li>First Name: {{fname}}</li>
+      <li>Last Name: {{lname}}</li> 
+      <li><a href= "{{gplus_url}}">Link to G+ Account</a></li>
+      <li>State: {{state}}</li>
+    </ul>
+  </p>    
+</div>
+
+</body>
+
+</html>

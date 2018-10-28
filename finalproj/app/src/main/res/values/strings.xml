@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">finalproj</string>
+    <string name="title_activity_tournament_events">TournamentEvents</string>
+    <string name="title_activity_view_events">ViewEvents</string>
+</resources>
